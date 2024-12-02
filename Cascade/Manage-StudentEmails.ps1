@@ -15,7 +15,7 @@ function Get-StudentsWithoutEmail {
             # Optimize by using server-side filtering
             $students = Get-ADUser -Filter {(emailaddress -notlike "*") -and (Enabled -eq $true) -and (name -notlike "academy*")} `
                                  -Properties emailaddress, employeeid `
-                                 -SearchBase $SearchBase
+                                 #-SearchBase $SearchBase
             
             if ($students) {
                 Write-Verbose "Found $($students.Count) students without email addresses."

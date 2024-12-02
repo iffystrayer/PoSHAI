@@ -1,0 +1,19 @@
+{
+    "OUFilters": [
+        "name -like '*hillside*'",
+        "name -like '*hank*'"
+    ],
+    "PasswordPrefix": "",
+    "NotificationEmail": "admin@domain.com",
+    "SmtpSettings": {
+        "Server": "smtp.domain.com",
+        "Port": 587,
+        "UseSSL": true,
+        "From": "noreply@domain.com",
+        "RequiresAuth": true,
+        "Username": "smtp_user@domain.com",
+        "Password": ""
+    },
+    "LoggingEnabled": true,
+    "VerboseLogging": true
+}

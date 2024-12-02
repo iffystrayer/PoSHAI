@@ -6,7 +6,7 @@ BeforeAll {
     $mockStudents = @(
         @{
             SAMAccountName = "student1"
-            EmailAddress = $null
+            EmailAddress = ""
             UserPrincipalName = "student1@apsk12.org"
             EmployeeID = "12345"
             Enabled = $true
