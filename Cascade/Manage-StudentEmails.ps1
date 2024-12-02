@@ -7,7 +7,7 @@ function Get-StudentsWithoutEmail {
     param (
         [Parameter(Mandatory=$false)]
         [ValidateNotNullOrEmpty()]
-        [string]$SearchBase = "OU=Schools,DC=student,DC=apsk12,DC=org"
+        [string]$SearchBase = "OU=Schools,DC=student,DC=k,DC=org"
     )
     process {
         try {
@@ -84,7 +84,7 @@ function Process-StudentEmails {
     param (
         [Parameter(Mandatory=$false)]
         [ValidateNotNullOrEmpty()]
-        [string]$SearchBase = "OU=Schools,DC=student,DC=apsk12,DC=org"
+        [string]$SearchBase = "OU=Schools,DC=student,DC=kpanakon,DC=org"
     )
     process {
         try {
